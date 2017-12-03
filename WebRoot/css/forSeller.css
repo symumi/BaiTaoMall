@@ -1,0 +1,14 @@
+@CHARSET "UTF-8";
+.mainheader{
+	margin: 5px;
+	margin-left:35%;
+	width: 60%;
+	height: 60px;
+}
+
+.theType{
+	margin-left:50px;
+	margin-right:50px;
+	display: inline;
+	float: left;
+}

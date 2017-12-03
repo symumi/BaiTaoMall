@@ -1,0 +1,17 @@
+.go-btn {
+	border:none;
+    display: inline-block;
+    width: 182px;
+    height: 39px;
+    position: relative;
+    vertical-align: middle;
+    line-height: 39px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    background: #ff0036;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}

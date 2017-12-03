@@ -1,0 +1,303 @@
+<
+style type ="text /css">* {
+	box-sizing: border-box;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+header {
+	font-size: 18;
+	height: 30px;
+	width: 80%;
+	background-color: #ff6a05;
+	border-bottom: none;
+	margin: 0 auto;
+	background-color: #ff6a05;
+	box-shadow: 2px 2px 2px #dddddd;
+}
+
+body, button, input, select, textarea, a {
+	font: 12px/1 Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;
+	text-decoration: none;
+}
+
+form {
+	position: relative;
+	margin: 0 auto;
+}
+
+.top_title {
+	text-decoration: none;
+	color: white;
+	height: 30px;
+	transition-duration: 0.2s;
+	margin-left: 10px;
+	line-height: 30px;
+}
+
+.top_title:hover {
+	color: black;
+	transition-duration: 0.2s;
+}
+
+.button {
+	border: none;
+	background-color: #ff6a05;
+	margin-left: -5px;
+	margin-top: 0;
+	width: 80px;
+	height: 30px;
+	overflow: hidden;
+	text-align: center;
+	font-size: 12;
+	color: black;
+}
+
+.button:hover {
+	background-color: #ff0000;
+	transition-duration: 0.2s;
+}
+
+.search-button {
+	border: none;
+	background-color: #ff6a05;
+	margin: auto -6px;
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	font-size: 14;
+	color: white;
+}
+
+.search-button:hover {
+	background-color: #ee0000;
+	transition-duration: 0.2s;
+}
+
+.search-holder {
+	height: 100px;
+	width: 1600px;
+	border: 1px;
+}
+
+.showtext {
+	border-color: #ff6a05;
+	border-style: solid;
+	border-width: 3px;
+	border-height: 160px;
+	background-color: #ff6a05;
+	margin-left: 10%;
+	margin-top: 100px;
+	color: white;
+	border-radius: 0px 15px 0 0;
+	font-size: 18;
+	border: soild;
+}
+
+.box {
+	width: 760px;
+	height: 200px;
+	background: #fff;
+	margin: 20px auto;
+	padding: 20px;
+}
+
+.box ul li {
+	width: 160px;
+	height: 210px;
+	list-style: none;
+	position: relative;
+	float: left;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+.goods {
+	text-decoration: none;
+	color: black;
+	font-size: 12;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.goods:hover {
+	border: 1px solid #ff6a05;
+	box-shadow: 2px 2px 2px #dddddd;
+	color: #ff6a05;
+	transition-duration: 0.2s;
+}
+
+.name1 {
+	color: black;
+	font-size: 17;
+	font-weight: bold;
+	margin: 1px auto;
+}
+
+.name1:hover {
+	text-decoration: underline;
+	transition-duration: 0.2s;
+}
+
+.signborder {
+	border: 1px solid #ff6a05;
+	background: white;
+	width: 30%;
+	height: 400px;
+	margin: 80px auto;
+	box-shadow: 2px 2px 20px #dddddd;
+}
+
+.signborder:hover {
+	border: 1px solid red;
+	transition-duration: 0.2s;
+}
+
+.signtext {
+	text-decoration: none;
+	color: #ff6a05;
+	font-size: 15;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.orderborder {
+	border: 1px solid #ff6a05;
+	background: white;
+	width: 50%;
+	margin: 80px auto;
+	text-align: center
+}
+
+.orderborder:hover {
+	box-shadow: 2px 2px 20px #dddddd;
+}
+
+.orderborder .table1 {
+	border: 1px solid #ff6a05;
+	text-align: center;
+	width: 90%;
+	margin-top: 10px;
+}
+
+.orderborder .table1:hover {
+	box-shadow: 2px 2px 2px #dddddd;
+}
+
+.ordertext {
+	text-decoration: none;
+	color: #ff6a05;
+	font-size: 15;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.goodsinfo {
+	border: 1px solid #ff6a05;
+	width: 60%;
+	height: 400px;
+	text-decoration: none;
+	color: black;
+	font-size: 15;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.goodsinfo:hover {
+	box-shadow: 5px 5px 5px #dddddd;
+}
+
+.goodsinfo .text1 {
+	text-decoration: none;
+	color: black;
+	height: 50px;
+	margin: 0 auto;
+	line-height: 50px;
+	text-align: center;
+}
+
+.gw_num {
+	border: 1px solid #dbdbdb;
+	width: 110px;
+	line-height: 26px;
+	overflow: hidden;
+}
+
+.gw_num em {
+	display: block;
+	height: 26px;
+	width: 26px;
+	float: left;
+	color: #7A7979;
+	border-right: 1px solid #dbdbdb;
+	text-align: center;
+	cursor: pointer;
+}
+
+.gw_num .num {
+	display: block;
+	float: left;
+	text-align: center;
+	width: 52px;
+	font-style: normal;
+	font-size: 14px;
+	line-height: 24px;
+	border: 0;
+}
+
+.gw_num em.add {
+	float: right;
+	border-right: 0;
+	border-left: 1px solid #dbdbdb;
+}
+
+.comm {
+	border: none;
+	width: 50%;
+	margin: 0 auto;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #ff6a05;
+	box-shadow: 5px 5px 5px #dddddd;
+}
+
+.comment {
+	border: none;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #dddddd;
+	box-shadow: 1px 1px 1px #dddddd;
+	height: 40px;
+	width: 50%;
+	margin: 0 left;
+	float: left;
+}
+
+.comment .textname {
+	color: red;
+	font-size: 14;
+	line-height: 40px;
+}
+
+.comment .text {
+	color: black;
+	font-size: 16;
+	line-height: 40px;
+}
+
+.box1 {
+	border: 1px solid #eeeeee;
+	width: 80%;
+	margin: 10px auto;
+}
+
+.box1:hover{
+	box-shadow:2px 2px 2px #eeeeee;
+}
+style
+>

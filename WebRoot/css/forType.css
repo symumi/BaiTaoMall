@@ -1,0 +1,28 @@
+@CHARSET "UTF-8";
+
+.thisType {
+	margin: 5px auto;
+	width: 80%;
+	height: 10px;
+}
+
+.theType {
+	margin-left: 10px;
+	margin-right: 20px;
+	display: inline;
+	float: left;
+}
+
+.thetext {
+	font-size: 14px;
+	text-align: center;
+	border: 1px solid #dddddd;
+	border-radius: 2px 2px 2px 2px;
+	color: #ff6a05;
+	text-decoration: underline;
+}
+
+.thetext:hover{
+	box-shadow:1px 2px 2px #dddddd;
+	text-decoration: none;
+}

@@ -1,0 +1,45 @@
+@CHARSET "UTF-8";
+.goodsInfo {
+	border: 1px solid #ff6a05;
+	width: 60%;
+	height: 600px;
+	text-decoration: none;
+	color: black;
+	font-size: 15;
+	margin: 50px auto;
+	text-align: center;
+	box-shadow: 5px 5px 5px #dddddd
+}
+
+.image{
+	float: left;
+	width: 60%;
+	height: 70%;
+}
+
+.info{
+	border-left: 1px solid #dbdbdb;
+	float: right;
+	width: 40%
+}
+
+label{
+	font: 12px/1 Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;
+	text-decoration: none;
+}
+
+form input{
+	margin-top: 30px;
+	text-align: center;
+	font-style: normal;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.select{
+	margin-top: 30px;
+}
+
+h1{
+	margin-left: 45%;
+}
